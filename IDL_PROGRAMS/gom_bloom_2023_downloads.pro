@@ -1,18 +1,18 @@
 ; $ID:	GOM_CHL_2023_DOWNLOADS.PRO,	2023-07-28-17,	USER-KJWH	$
-  FUNCTION GOM_CHL_2023_DOWNLOADS
+  FUNCTION GOM_BLOOM_2023_DOWNLOADS
 
 ;+
 ; NAME:
-;   GOM_CHL_2023_DOWNLOADS
+;   GOM_BLOOM_2023_DOWNLOADS
 ;
 ; PURPOSE:
 ;   $PURPOSE$
 ;
 ; PROJECT:
-;   GOM_CHL_2023
+;   GOM_BLOOM_2023
 ;
 ; CALLING SEQUENCE:
-;   Result = GOM_CHL_2023_DOWNLOADS($Parameter1$, $Parameter2$, $Keyword=Keyword$, ...)
+;   Result = GOM_BLOOM_2023_DOWNLOADS($Parameter1$, $Parameter2$, $Keyword=Keyword$, ...)
 ;
 ; REQUIRED INPUTS:
 ;   Parm1.......... Describe the positional input parameters here. 
@@ -57,9 +57,9 @@
 ;   Jul 28, 2023 - KJWH: Initial code written
 ;-
 ; ****************************************************************************************************
-  ROUTINE_NAME = 'GOM_CHL_2023_DOWNLOADS'
+  ROUTINE_NAME = 'GOM_BLOOM_2023_DOWNLOADS'
   COMPILE_OPT IDL2
   SL = PATH_SEP()
 
 
-END ; ***************** End of GOM_CHL_2023_DOWNLOADS *****************
+END ; ***************** End of GOM_BLOOM_2023_DOWNLOADS *****************

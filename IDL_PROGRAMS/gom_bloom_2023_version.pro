@@ -1,18 +1,18 @@
 ; $ID:	GOM_CHL_2023_VERSION.PRO,	2023-07-28-17,	USER-KJWH	$
-  FUNCTION GOM_CHL_2023_VERSION, VERSION
+  FUNCTION GOM_BLOOM_2023_VERSION, VERSION
 
 ;+
 ; NAME:
-;   GOM_CHL_2023_VERSION
+;   GOM_BLOOM_2023_VERSION
 ;
 ; PURPOSE:
-;   Set up the defaults for the GOM_CHL_2023 outputs
+;   Set up the defaults for the GOM_BLOOM_2023_VERSION outputs
 ;
 ; PROJECT:
-;   GOM_CHL_2023
+;   GOM_BLOOM_2023_VERSION
 ;
 ; CALLING SEQUENCE:
-;   Result = GOM_CHL_2023_VERSION($Parameter1$, $Parameter2$, $Keyword=Keyword$, ...)
+;   Result = GOM_BLOOM_2023_VERSION($Parameter1$, $Parameter2$, $Keyword=Keyword$, ...)
 ;
 ; REQUIRED INPUTS:
 ;   Parm1.......... Describe the positional input parameters here. 
@@ -57,7 +57,7 @@
 ;   Jul 28, 2023 - KJWH: Initial code written
 ;-
 ; ****************************************************************************************************
-  ROUTINE_NAME = 'GOM_CHL_2023_VERSION'
+  ROUTINE_NAME = 'GOM_BLOOM_2023_VERSION'
   COMPILE_OPT IDL2
   SL = PATH_SEP()
   
@@ -69,7 +69,7 @@
     VER = VERSION[V]
 
     ; ===> Make the project directories
-    DIR_PRO = !S.GOM_CHL_2023
+    DIR_PRO = !S.GOM_BLOOM_2023_VERSION
     DIR_FILES = DIR_PRO + 'FILES' + SL
     DIR_VER = DIR_PRO + 'OUTPUTS' + SL ;+ VER + SL
     DIRNAMES = ['EXTRACTS','PNGS','COMP_ANIMATIONS','ANIMATIONS','COMPOSITES','LOGS','NETCDF']

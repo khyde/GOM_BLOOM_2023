@@ -1,2 +1,7 @@
+# .* need to be more specific 
+*.DS_Store*
+_*
 
+**/LOG*
 *.log
+*.LOG

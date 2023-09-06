@@ -2,6 +2,9 @@
 *.DS_Store*
 _*
 
-**/LOG*
+**/LOG/*
 *.log
 *.LOG
+.DS_Store
+PICTURES/Water sample GOM May 2023 Joe Vallino WHOI.jpeg
+.DS_Store

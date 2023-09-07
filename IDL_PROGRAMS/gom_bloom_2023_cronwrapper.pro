@@ -62,7 +62,7 @@
   SL = PATH_SEP()
   DT = DATE_PARSE(DATE_NOW())
    
-  LOGDIR = !S.GOM_BLOOM_2023 + 'IDL_OUTPUTS' + SL + 'LOGS' + SL & DIR_TEST, LOGDIR
+  LOGDIR = !S.GOM_BLOOM_2023 + SL + 'CRONLOGS' + SL & DIR_TEST, LOGDIR
   LOGFILE = LOGDIR + ROUTINE_NAME + '-' + DATE_NOW() + '.log'
   OPENW, LUN, LOGFILE, /APPEND, /GET_LUN, WIDTH=180 ;  ===> Open log file
   PLUN, LUN, '******************************************************************************************************************'

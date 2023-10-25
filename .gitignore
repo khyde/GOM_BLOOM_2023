@@ -1,5 +1,5 @@
 # .* need to be more specific 
-*.DS_Store*
+.DS*
 .*
 _*
 
